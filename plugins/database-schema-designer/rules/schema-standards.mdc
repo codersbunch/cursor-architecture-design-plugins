@@ -1,0 +1,16 @@
+---
+description: Database schema design standards for maintainable and performant schemas
+alwaysApply: true
+---
+
+schema-standards:
+
+- Use snake_case for all table and column names
+- Every table must have a primary key (prefer UUID or BIGSERIAL)
+- Always add created_at and updated_at timestamp columns
+- Use foreign key constraints to enforce referential integrity
+- Never store comma-separated values in a single column (violates 1NF)
+- Avoid EAV (Entity-Attribute-Value) patterns - use JSONB for flexible attributes
+- Index all foreign key columns and frequently queried columns
+- Use NOT NULL constraints wherever possible - avoid nullable columns unless truly optional
+- Prefix junction/join tables with both entity names (e.g., user_roles, post_tags)

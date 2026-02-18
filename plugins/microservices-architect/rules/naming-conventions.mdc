@@ -1,0 +1,14 @@
+---
+description: Naming conventions for microservices, APIs, and events
+alwaysApply: true
+---
+
+microservices-naming-conventions:
+
+- Service names: lowercase kebab-case (e.g., user-service, order-processor)
+- REST endpoints: plural nouns, kebab-case (e.g., /api/v1/user-profiles)
+- Event names: past-tense domain events (e.g., OrderPlaced, UserRegistered)
+- gRPC methods: PascalCase verbs (e.g., GetUser, CreateOrder)
+- Message queue topics: {domain}.{entity}.{action} (e.g., orders.order.placed)
+- Environment variables: SCREAMING_SNAKE_CASE (e.g., DATABASE_URL, SERVICE_PORT)
+- Docker images: {org}/{service-name}:{semver} (e.g., acme/user-service:1.2.3)

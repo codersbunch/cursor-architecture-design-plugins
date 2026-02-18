@@ -1,0 +1,15 @@
+---
+description: Standards for inter-service communication in microservices architectures
+alwaysApply: true
+---
+
+service-communication:
+
+- Use async messaging (Kafka, RabbitMQ, SQS) for non-critical cross-service calls
+- Use synchronous REST or gRPC only for real-time, low-latency requirements
+- Never share databases between services - each service owns its data
+- Define explicit API contracts (OpenAPI/Protobuf) before implementation
+- Implement circuit breakers for all outbound service calls
+- Use correlation IDs for distributed tracing across services
+- Version all APIs - never make breaking changes without a new version
+- Prefer event-driven patterns for eventual consistency over distributed transactions

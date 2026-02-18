@@ -1,0 +1,13 @@
+{
+  "name": "database-schema-designer",
+  "displayName": "Database Schema Designer",
+  "version": "1.0.0",
+  "description": "Normalization checks, index optimization, migration generation, and schema change reviews for Postgres and MySQL.",
+  "author": {
+    "name": "CodersBunch",
+    "email": "praveen@codersbunch.com"
+  },
+  "license": "MIT",
+  "keywords": ["database", "schema", "postgres", "mysql", "migrations", "normalization", "indexing"],
+  "logo": "assets/logo.svg"
+}

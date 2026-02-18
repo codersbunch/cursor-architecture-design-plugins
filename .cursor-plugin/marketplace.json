@@ -1,0 +1,24 @@
+{
+  "name": "architecture-design-plugins",
+  "owner": {
+    "name": "CodersBunch",
+    "email": "praveen@codersbunch.com"
+  },
+  "metadata": {
+    "description": "Architecture and design plugins for Cursor: Microservices Architect and Database Schema Designer",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "microservices-architect",
+      "source": "./plugins/microservices-architect",
+      "description": "Design service boundaries, API contracts, and event-driven patterns"
+    },
+    {
+      "name": "database-schema-designer",
+      "source": "./plugins/database-schema-designer",
+      "description": "Schema normalization, index optimization, and migration generation"
+    }
+  ]
+}

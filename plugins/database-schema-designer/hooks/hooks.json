@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "./scripts/validate-migration.sh",
+        "matcher": "migrations/",
+        "description": "Validate migration file syntax after editing"
+      }
+    ]
+  }
+}
