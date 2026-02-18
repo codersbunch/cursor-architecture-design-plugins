@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "Design service boundaries, generate API contracts, and implement event-driven patterns for microservices architectures.",
   "author": {
-    "name": "CodersBunch",
-    "email": "praveen@codersbunch.com"
+    "name": "CoderBunch",
+    "email": "praveen@coderbunch.com"
   },
   "license": "MIT",
   "keywords": ["microservices", "architecture", "api", "openapi", "event-driven", "service-mesh"],

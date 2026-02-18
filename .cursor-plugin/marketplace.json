@@ -1,8 +1,8 @@
 {
   "name": "architecture-design-plugins",
   "owner": {
-    "name": "CodersBunch",
-    "email": "praveen@codersbunch.com"
+    "name": "CoderBunch",
+    "email": "praveen@coderbunch.com"
   },
   "metadata": {
     "description": "Architecture and design plugins for Cursor: Microservices Architect and Database Schema Designer",

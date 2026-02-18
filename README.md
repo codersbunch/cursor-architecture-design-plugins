@@ -11,7 +11,7 @@ Design service boundaries, generate API contracts, and implement event-driven pa
 Schema normalization, index optimization, migration generation with Postgres/MySQL MCP integration.
 
 ## Author
-Praveen · praveen@codersbunch.com
+Praveen · praveen@coderbunch.com
 
 ## License
 MIT
